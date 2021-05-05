@@ -36,8 +36,8 @@ class imagesMixer(QtWidgets.QMainWindow):
         self.imagesModels = [..., ...]
         self.heights = [..., ...]
         self.weights = [..., ...]
-        self.images = [self.ui.image1 , self.ui.image2 ,self.ui.Image1Edited ,self.ui.image2Edited ,self.ui.Output1 , self.ui.Output2]    
-        self.combos = [self.ui.comboBox , self.ui.comboBox_2, self.ui.comboBox_3 , self.ui.comboBox_6 ,self.ui.comboBox_7]
+#         self.images = [self.ui.image1 , self.ui.image2 ,self.ui.Image1Edited ,self.ui.image2Edited ,self.ui.Output1 , self.ui.Output2]    
+#         self.combos = [self.ui.comboBox , self.ui.comboBox_2, self.ui.comboBox_3 , self.ui.comboBox_6 ,self.ui.comboBox_7]
         self.combo_output = self.ui.comboBox_3 
         self.componentCombos =[self.ui.comboBox_6 ,self.ui.comboBox_7] 
         self.imageCombos = [self.ui.combo_select_img1, self.ui.combo_select_img2]
@@ -117,24 +117,23 @@ class imagesMixer(QtWidgets.QMainWindow):
         
         mixOutput = ...
         outID = self.combo_output.currentIndex()
+        
         imgI1 = self.imageCombos[0].currentIndex()
         imgI2 = self.imageCombos[1].currentIndex()
-        # component1 = self.componentCombos[0].currentText()
-        # component2 = self.componentCombos[1].currentText()
+      
         component1 = self.componentCombos[0].currentIndex()
         component2 = self.componentCombos[1].currentIndex()
-        # cmp2 = self.componentCombos[1].currentText()
+    
         R1 = self.ui.slider1.value() / 100.0
         R2 = self.ui.slider2.value() / 100.0
-
+        
+        #     Kontttt bgrbbb 7aga w mazbttsh 
         # Variables = [ [imgI1 , imgI2] , [component1,component2] , [R1,R2] ] # Not Define
         # for I in range(2):
         #     Variables[0][i] = self.imageCombos[i].currentIndex()
         #     Variables[1][i] = self.componentCombos[i].currentIndex()
         #     Variables[2][i]  = self.Sliders[i].value() / 100.0
 
-        # Update the other combo with the correct choices
-        # self.adjustComboBox(component1, cmp2)
 
         MODES = [ Modes.magAndPhase , Modes.realAndImag , Modes.phaseAndUniMag , Modes.uniMagAndPhase, Modes.uniPhaseAndMag, Modes.uniMagAndUniPhase]
 
@@ -178,8 +177,6 @@ class imagesMixer(QtWidgets.QMainWindow):
         msg.setIcon(icon)
         msg.setStandardButtons(button)
         x = msg.exec_()
-
-
 
 if __name__ == "__main__":
 
