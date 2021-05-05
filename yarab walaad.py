@@ -112,7 +112,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
     def updateCombosChanged(self, id):
         Componentchoice = self.updateCombos[id].currentIndex()
-
+        Componentname = self.updateCombos[id].currentText()
         fShift = np.fft.fftshift(self.imagesModels[id].dft)
         magnitude = 20 * np.log(np.abs(fShift))
         phase = np.angle(fShift)
@@ -123,7 +123,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         for comp in range(len(Components)):
             if Componentchoice == comp+1:
                 self.displayImage(Components[comp], self.EditedImages[id])
-                logger.info(f" plot Component {Componentchoice} Of Image{id + 1}")
+                logger.info(f" plot {Componentname} Of Image{id + 1}")
 
     def updateComboStatus(self):
        
@@ -133,6 +133,8 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         imgI2 = self.selectCombos[1].currentIndex()
         component1 = self.OutputCombos[0].currentIndex()
         component2 = self.OutputCombos[1].currentIndex()
+        comp1 = self.OutputCombos[0].currentText()
+        comp2 = self.OutputCombos[1].currentText()
         R1 = self.ui.slider1.value() / 100.0
         R2 = self.ui.slider2.value() / 100.0
 
@@ -172,8 +174,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         print(type(mixOutput))
         if type(mixOutput) != type(...):
             self.displayImage(mixOutput, self.outputImages[outID])
-            logger.info(
-                f"Mixing {R1} from Component {component1} From Image{imgI1 + 1} And {R2} from Component {component2} From Image{imgI2 + 1}")
+            logger.info(f"Mixing {R1} {comp1} From Image{imgI1 + 1} And {R2} {comp2} From Image{imgI2 + 1}")
             
             logger.info(f"Output{outID + 1} has been mixed and displayed successfully")
 
