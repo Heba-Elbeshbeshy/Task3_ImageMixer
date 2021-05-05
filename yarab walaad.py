@@ -66,6 +66,8 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             item.ui.roiBtn.hide()
             item.ui.menuBtn.hide()
             item.ui.roiPlot.hide()
+            item.getView().setAspectLocked(False)
+            item.view.setAspectLocked(False)
            
 
     
