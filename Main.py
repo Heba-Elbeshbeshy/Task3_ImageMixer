@@ -7,7 +7,7 @@ import math
 import sys
 import os
 from MainWindow import Ui_MainWindow
-from modesEnum import Modes
+from ImageModel  import Modes
 from ImageModel import ImageModel
 
 #########################################################
