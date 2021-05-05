@@ -1,7 +1,16 @@
 ## This is the abstract class that the students should implement
-from modesEnum import Modes
 import numpy as np
 import cv2
+import enum
+
+class Modes(enum.Enum):
+    magAndPhase = "testMagAndPhaseMode"
+    realAndImag = "testRealAndImagMode"
+    magAndUniPhase = "testMagAndUniPhaseMode"
+    phaseAndUniMag = "testPhaseAndUniMagMode"
+    uniMagAndUniPhase = "testUniMagAndUniPhaseMode"
+    uniMagAndPhase = "testUniMagAndPhase"
+    uniPhaseAndMag = "testUniPhaseAndMag"
 
 class ImageModel():
     # A class that represents the ImageModel
