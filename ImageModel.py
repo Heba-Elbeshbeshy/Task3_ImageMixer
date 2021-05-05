@@ -1,6 +1,5 @@
-## This is the abstract class that the students should implement
 import numpy as np
-import cv2
+import cv2 as cv
 import enum
 
 class Modes(enum.Enum):
@@ -12,13 +11,15 @@ class Modes(enum.Enum):
     uniMagAndPhase = "testUniMagAndPhase"
     uniPhaseAndMag = "testUniPhaseAndMag"
 
+
 class ImageModel():
-    # A class that represents the ImageModel
+
     def __init__(self, imgPath: str):
-        # :param imgPath: absolute path of the image
-    
+
+        #param imgPath: absolute path of the image
+
         self.imgPath = imgPath
-        self.imgByte = cv2.imread(self.imgPath, flags=cv2.IMREAD_GRAYSCALE).T
+        self.imgByte = cv.imread(self.imgPath, flags=cv.IMREAD_GRAYSCALE).T
         self.imgShape = self.imgByte.shape
 
         self.dft = np.fft.fft2(self.imgByte)
@@ -29,9 +30,7 @@ class ImageModel():
 
         self.uniformMagnitude = np.ones(self.imgByte.shape)
         self.uniformPhase = np.zeros(self.imgByte.shape)
-
-
-
+    
     def mix(self, imageToBeMixed: 'ImageModel', phaesOrImaginaryRatio: float, magnitudeOrRealRatio: float, mode: 'Modes'):
         """
         a function that takes ImageModel object mag ratio, phase ration and
@@ -115,4 +114,3 @@ class ImageModel():
 
 
         return abs(mixInverse)
-
