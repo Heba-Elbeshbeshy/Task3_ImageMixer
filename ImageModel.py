@@ -72,10 +72,11 @@ class ImageModel():
             mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.phaseAndUniMag :
+            print("Mixing UNI Magnitude and Phase")
             Ph1 = self.phase
             Ph2 = imageToBeMixed.phase
 
-            UM1 = self.magnitude
+            UM1 = self.uniformMagnitude
             UM2 = imageToBeMixed.uniformMagnitude
             
             phaseMix  =   w1 * Ph1    +  (1-w1) * Ph2
@@ -85,9 +86,10 @@ class ImageModel():
             mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.uniPhaseAndMag :
+            print("Mixing Magnitude and UNI Phase")
 
             UP1 = self.uniformPhase
-            UP2 = imageToBeMixed.phase
+            UP2 = imageToBeMixed.uniformPhase
 
             Mag1 = self.magnitude
             Mag2 = imageToBeMixed.magnitude
@@ -99,11 +101,12 @@ class ImageModel():
             mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.uniMagAndUniPhase:
+            print("Mixing UNI Mag and UNI phase")
 
             UniP1 = self.uniformPhase
-            UniP2 = imageToBeMixed.phase
+            UniP2 = imageToBeMixed.uniformPhase
 
-            UniM1 = self.magnitude
+            UniM1 = self.uniformMagnitude
             UniM2 = imageToBeMixed.uniformMagnitude
             
             UniphaseMix  =   w1  *  UniP1   +  (1-w1) * UniP2
@@ -111,6 +114,5 @@ class ImageModel():
 
             combined = np.multiply(UniMagMix, np.exp(1j * UniphaseMix))
             mixInverse = np.real(np.fft.ifft2(combined))
-
 
         return abs(mixInverse)
