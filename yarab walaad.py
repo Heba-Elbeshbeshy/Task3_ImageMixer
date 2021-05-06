@@ -70,6 +70,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             item.view.setAspectLocked(False)
             
     def openimg(self, imgID):
+      
         self.path, self.format = QtWidgets.QFileDialog.getOpenFileName(None, "choose image", os.getenv('HOME') ,
                                                                            "*.jpg;;" "*.jpeg;;" "*.png;;")
         imgName = self.path.split('/')[-1]
