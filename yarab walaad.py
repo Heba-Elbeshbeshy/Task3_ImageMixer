@@ -68,11 +68,8 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             item.ui.roiPlot.hide()
             item.getView().setAspectLocked(False)
             item.view.setAspectLocked(False)
-           
-
-    
+            
     def openimg(self, imgID):
-
         self.path, self.format = QtWidgets.QFileDialog.getOpenFileName(None, "choose image", os.getenv('HOME') ,
                                                                            "*.jpg;;" "*.jpeg;;" "*.png;;")
         imgName = self.path.split('/')[-1]
@@ -113,6 +110,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
     def updateCombosChanged(self, id):
         Componentchoice = self.updateCombos[id].currentIndex()
         Componentname = self.updateCombos[id].currentText()
+        
         fShift = np.fft.fftshift(self.imagesModels[id].dft)
         magnitude = 20 * np.log(np.abs(fShift))
         phase = np.angle(fShift)
@@ -126,48 +124,25 @@ class ApplicationWindow(QtWidgets.QMainWindow):
                 logger.info(f" plot {Componentname} Of Image{id + 1}")
 
     def updateComboStatus(self):
-       
         mixOutput = ...
         outID = self.ui.comboBox_3.currentIndex()
         imgI1 = self.selectCombos[0].currentIndex()
         imgI2 = self.selectCombos[1].currentIndex()
         component1 = self.OutputCombos[0].currentIndex()
         component2 = self.OutputCombos[1].currentIndex()
+        comp1 = self.OutputCombos[0].currentText()
+        comp2 = self.OutputCombos[1].currentText()
+    
         R1 = self.ui.slider1.value() / 100.0
         R2 = self.ui.slider2.value() / 100.0
 
-        #   Kontttt bgrbbb 7aga w mazbttsh 
-        # m3lesh:) yakfeky sharaf elmohawala
-        # Variables = [ [imgI1 , imgI2] , [component1,component2] , [R1,R2] ] # Not Define
-        # for I in range(2):
-        #     Variables[0][i] = self.imageCombos[i].currentIndex()
-        #     Variables[1][i] = self.componentCombos[i].currentIndex()
-        #     Variables[2][i]  = self.Sliders[i].value() / 100.0
+        self.adjustComboBox(comp1, comp2)
 
-
-        MODES = [ Modes.magAndPhase , Modes.realAndImag , Modes.phaseAndUniMag , Modes.uniMagAndPhase, Modes.uniPhaseAndMag, Modes.uniMagAndUniPhase]
-
-    # try:
-        # for i in range(1,7):
-        i=1
-        #  phase and Mag 
-        if component1 == i and component2 == i:
-            mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1,R2, Modes.magAndPhase)
-
-        # # phase and uimag
-        elif component1 == i and component2 == i+2:                                                       
-            mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1, R2, Modes.phaseAndUniMag)
-
-       # real and imaginary 
-        elif component1 == i+1 and component2 == i+1:
-            mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1, R2, Modes.realAndImag)
-    
-        #  UNIPhase and Mag
-        elif component1 == i+2 and component2 == i:
-            mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1, R2, Modes.uniPhaseAndMag) 
-
-        elif component1 == i+2 and component2 == i+2:
-            mixOutput == self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1, R2, Modes.uniMagAndUniPhase) 
+        Mixing = [[1, 1 , Modes.magAndPhase] , [1, 2, Modes.phaseAndUniMag] , [2,1,Modes.realAndImag] , [3, 1 ,Modes.uniPhaseAndMag] , [3,2,Modes.uniMagAndUniPhase] ]
+        
+        for i in range(len(Mixing)):
+            if component1 == Mixing[i][0] and component2 == Mixing[i][1]:
+                mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1,R2, Mixing[i][2])
        
         print(type(mixOutput))
         if type(mixOutput) != type(...):
@@ -175,6 +150,26 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             logger.info(f"Mixing {R1} {comp1} From Image{imgI1 + 1} And {R2} {comp2} From Image{imgI2 + 1}")
             
             logger.info(f"Output{outID + 1} has been mixed and displayed successfully")
+
+
+    def adjustComboBox(self, comp1, comp2):
+
+        self.OutputCombos[1].clear()
+        self.OutputCombos[1].addItem("Choose Component")
+    
+        if comp1 == "phase":
+            self.OutputCombos[1].addItem("magnitude")
+            self.OutputCombos[1].addItem("uniform magnitude")
+            self.OutputCombos[1].setCurrentText(comp2)
+        elif comp1 == "imaginary":
+            self.OutputCombos[1].addItem("real")
+            self.OutputCombos[1].setCurrentText(comp2)
+        elif comp1 == "uniform phase":
+            self.OutputCombos[1].addItem("magnitude")
+            self.OutputCombos[1].addItem("uniform Magnitude")
+            self.OutputCombos[1].setCurrentText(comp2)
+
+        logger.info(f"ComboBoxes has been adjusted")
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
