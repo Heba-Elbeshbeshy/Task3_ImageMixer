@@ -32,11 +32,7 @@ class ImageModel():
         self.uniformPhase = np.zeros(self.imgByte.shape)
     
     def mix(self, imageToBeMixed: 'ImageModel', phaesOrImaginaryRatio: float, magnitudeOrRealRatio: float, mode: 'Modes'):
-        """
-        a function that takes ImageModel object mag ratio, phase ration and
-        return the magnitude of ifft of the mix
-        return type ---> 2D numpy array
-        """
+
         w1 = phaesOrImaginaryRatio
         w2 = magnitudeOrRealRatio
         mixInverse = None
@@ -54,7 +50,7 @@ class ImageModel():
             magnitudeMix = (1-w2)*M1 + w2*M2
 
             combined = np.multiply(magnitudeMix, np.exp(1j * phaseMix))
-            mixInverse = np.real(np.fft.ifft2(combined))
+            # mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.realAndImag:
             # mix2 = (w1 * R1 + (1 - w1) * R2) + j * ((1 - w2) * I1 + w2 * I2)
@@ -69,7 +65,7 @@ class ImageModel():
             realMix = (1-w2)*R1 + w2*R2
 
             combined = realMix + imaginaryMix * 1j
-            mixInverse = np.real(np.fft.ifft2(combined))
+            # mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.phaseAndUniMag :
             print("Mixing UNI Magnitude and Phase")
@@ -83,7 +79,7 @@ class ImageModel():
             UniMagMix = (1-w2) * UM1  +    w2 * UM2
 
             combined = np.multiply(UniMagMix, np.exp(1j * phaseMix))
-            mixInverse = np.real(np.fft.ifft2(combined))
+            # mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.uniPhaseAndMag :
             print("Mixing Magnitude and UNI Phase")
@@ -98,7 +94,7 @@ class ImageModel():
             MagMix = (1-w2) * Mag1  +    w2 * Mag2
 
             combined = np.multiply(MagMix, np.exp(1j * UniphaseMix))
-            mixInverse = np.real(np.fft.ifft2(combined))
+            # mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.uniMagAndUniPhase:
             print("Mixing UNI Mag and UNI phase")
@@ -113,6 +109,7 @@ class ImageModel():
             UniMagMix    = (1-w2)*  UniM1  +    w2 * UniM2
 
             combined = np.multiply(UniMagMix, np.exp(1j * UniphaseMix))
-            mixInverse = np.real(np.fft.ifft2(combined))
+            # mixInverse = np.real(np.fft.ifft2(combined))
+        mixInverse = np.real(np.fft.ifft2(combined))
 
         return abs(mixInverse)

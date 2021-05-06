@@ -133,8 +133,6 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         imgI2 = self.selectCombos[1].currentIndex()
         component1 = self.OutputCombos[0].currentIndex()
         component2 = self.OutputCombos[1].currentIndex()
-        comp1 = self.OutputCombos[0].currentText()
-        comp2 = self.OutputCombos[1].currentText()
         R1 = self.ui.slider1.value() / 100.0
         R2 = self.ui.slider2.value() / 100.0
 
