@@ -73,7 +73,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
       
         self.path, self.format = QtWidgets.QFileDialog.getOpenFileName(None, "choose image", os.getenv('HOME') ,
                                                                            "*.jpg;;" "*.jpeg;;" "*.png;;")
-        imgName = self.path.split('/')[-1]
+        # imgName = self.path.split('/')[-1]
         if self.path == "":
             pass
         self.Read(self.path , imgID)
@@ -104,9 +104,9 @@ class ApplicationWindow(QtWidgets.QMainWindow):
     def displayImage(self, data, item):
 
         item.setImage(data) 
-       # item.view.setRange(xRange=[0, self.imagesModels[0].imgShape[0]], yRange=[0, self.imagesModels[0].imgShape[1]],
-                            # padding=0)
-        #item.ui.roiPlot.hide()
+        item.view.setRange(xRange=[0, self.imagesModels[0].imgShape[0]], yRange=[0, self.imagesModels[0].imgShape[1]],
+                            padding=0)
+        item.ui.roiPlot.hide()
 
     def updateCombosChanged(self, id):
         Componentchoice = self.updateCombos[id].currentIndex()
@@ -145,7 +145,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             if component1 == Mixing[i][0] and component2 == Mixing[i][1]:
                 mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1,R2, Mixing[i][2])
        
-        print(type(mixOutput))
+        # print(type(mixOutput))
         if type(mixOutput) != type(...):
             self.displayImage(mixOutput, self.outputImages[outID])
             logger.info(f"Mixing {R1} {comp1} From Image{imgI1 + 1} And {R2} {comp2} From Image{imgI2 + 1}")

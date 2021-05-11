@@ -20,6 +20,7 @@ namespace py = pybind11;
 vector<complex<double> > dft(const vector<complex<double> > &input)
  {
 	vector<complex<double> > output;
+
 	size_t N = input.size();
 	for (size_t k = 0; k < N; k++) {  // For each output element
 		complex<double> sum(0, 0);
@@ -62,6 +63,7 @@ vector<double>  dft_imag(const vector<complex<double> >  &input)
 vector<complex<double> > fft( vector<complex<double> > &input)
 {
     int N=input.size();
+	
     if(N==1) {return input;}
     int M=N/2 ;
     vector<complex<double> >Xeven(M,0);
@@ -110,9 +112,6 @@ vector<double>  fft_imag(vector<complex<double> >  &input)
 	}
 	return imag_fft;
 }
-
-
-
 
 
 PYBIND11_MODULE(ft_fft, m) 

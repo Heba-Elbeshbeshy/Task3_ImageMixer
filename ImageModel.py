@@ -49,7 +49,7 @@ class ImageModel():
             phaseMix =   w1*P1 + (1-w1)*P2 
             magnitudeMix = (1-w2)*M1 + w2*M2
 
-            combined = np.multiply(magnitudeMix, np.exp(1j * phaseMix))
+            combined = np.multiply(magnitudeMix, np.exp(1j * phaseMix)) 
             # mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.realAndImag:
@@ -64,7 +64,7 @@ class ImageModel():
             imaginaryMix = w1*I1 + (1-w1)*I2
             realMix = (1-w2)*R1 + w2*R2
 
-            combined = realMix + imaginaryMix * 1j
+            combined = realMix + imaginaryMix * 1j 
             # mixInverse = np.real(np.fft.ifft2(combined))
 
         elif mode == Modes.phaseAndUniMag :
