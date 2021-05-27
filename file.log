@@ -1,0 +1,536 @@
+(2021-05-27 12:05:36,729) | uplood Image1: dog250.jpg 
+(2021-05-27 12:05:43,711) | Error: The two images don't have the same size.
+(2021-05-27 12:05:50,035) | uplood Image2: dog250.jpg 
+(2021-05-27 12:05:55,650) | uplood Image2: kitty250.jpg 
+(2021-05-27 12:05:57,861) |  plot FT Magnitude Of Image1
+(2021-05-27 12:06:00,329) |  plot FT Phase Of Image2
+(2021-05-27 12:06:04,409) | ComboBoxes has been adjusted
+(2021-05-27 12:06:08,295) | ComboBoxes has been adjusted
+(2021-05-27 12:06:09,775) | ComboBoxes has been adjusted
+(2021-05-27 12:06:09,793) | Mixing 0.0 phase From Image2 And 0.0 uniform magnitude From Image1
+(2021-05-27 12:06:09,794) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,680) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,695) | Mixing 0.0 phase From Image2 And 0.01 uniform magnitude From Image1
+(2021-05-27 12:06:11,695) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,714) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,727) | Mixing 0.0 phase From Image2 And 0.05 uniform magnitude From Image1
+(2021-05-27 12:06:11,727) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,731) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,741) | Mixing 0.0 phase From Image2 And 0.1 uniform magnitude From Image1
+(2021-05-27 12:06:11,741) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,749) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,760) | Mixing 0.0 phase From Image2 And 0.15 uniform magnitude From Image1
+(2021-05-27 12:06:11,760) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,767) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,776) | Mixing 0.0 phase From Image2 And 0.17 uniform magnitude From Image1
+(2021-05-27 12:06:11,776) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,784) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,796) | Mixing 0.0 phase From Image2 And 0.19 uniform magnitude From Image1
+(2021-05-27 12:06:11,796) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,801) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,811) | Mixing 0.0 phase From Image2 And 0.21 uniform magnitude From Image1
+(2021-05-27 12:06:11,811) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,818) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,828) | Mixing 0.0 phase From Image2 And 0.23 uniform magnitude From Image1
+(2021-05-27 12:06:11,829) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,837) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,847) | Mixing 0.0 phase From Image2 And 0.25 uniform magnitude From Image1
+(2021-05-27 12:06:11,847) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,857) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,871) | Mixing 0.0 phase From Image2 And 0.3 uniform magnitude From Image1
+(2021-05-27 12:06:11,871) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,875) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,884) | Mixing 0.0 phase From Image2 And 0.34 uniform magnitude From Image1
+(2021-05-27 12:06:11,885) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,892) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,906) | Mixing 0.0 phase From Image2 And 0.38 uniform magnitude From Image1
+(2021-05-27 12:06:11,906) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,909) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,922) | Mixing 0.0 phase From Image2 And 0.41 uniform magnitude From Image1
+(2021-05-27 12:06:11,922) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,928) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,940) | Mixing 0.0 phase From Image2 And 0.42 uniform magnitude From Image1
+(2021-05-27 12:06:11,940) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,945) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,955) | Mixing 0.0 phase From Image2 And 0.44 uniform magnitude From Image1
+(2021-05-27 12:06:11,955) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,962) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,974) | Mixing 0.0 phase From Image2 And 0.45 uniform magnitude From Image1
+(2021-05-27 12:06:11,974) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,979) | ComboBoxes has been adjusted
+(2021-05-27 12:06:11,990) | Mixing 0.0 phase From Image2 And 0.47 uniform magnitude From Image1
+(2021-05-27 12:06:11,990) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:11,999) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,014) | Mixing 0.0 phase From Image2 And 0.48 uniform magnitude From Image1
+(2021-05-27 12:06:12,014) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,018) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,029) | Mixing 0.0 phase From Image2 And 0.5 uniform magnitude From Image1
+(2021-05-27 12:06:12,029) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,033) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,043) | Mixing 0.0 phase From Image2 And 0.53 uniform magnitude From Image1
+(2021-05-27 12:06:12,043) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,050) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,062) | Mixing 0.0 phase From Image2 And 0.55 uniform magnitude From Image1
+(2021-05-27 12:06:12,062) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,068) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,077) | Mixing 0.0 phase From Image2 And 0.56 uniform magnitude From Image1
+(2021-05-27 12:06:12,078) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,086) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,096) | Mixing 0.0 phase From Image2 And 0.58 uniform magnitude From Image1
+(2021-05-27 12:06:12,096) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,103) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,115) | Mixing 0.0 phase From Image2 And 0.6 uniform magnitude From Image1
+(2021-05-27 12:06:12,115) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,120) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,130) | Mixing 0.0 phase From Image2 And 0.62 uniform magnitude From Image1
+(2021-05-27 12:06:12,130) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,137) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,146) | Mixing 0.0 phase From Image2 And 0.64 uniform magnitude From Image1
+(2021-05-27 12:06:12,147) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,154) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,166) | Mixing 0.0 phase From Image2 And 0.66 uniform magnitude From Image1
+(2021-05-27 12:06:12,166) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,171) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,182) | Mixing 0.0 phase From Image2 And 0.68 uniform magnitude From Image1
+(2021-05-27 12:06:12,183) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,188) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,198) | Mixing 0.0 phase From Image2 And 0.69 uniform magnitude From Image1
+(2021-05-27 12:06:12,198) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,206) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,217) | Mixing 0.0 phase From Image2 And 0.7 uniform magnitude From Image1
+(2021-05-27 12:06:12,217) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,223) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,235) | Mixing 0.0 phase From Image2 And 0.72 uniform magnitude From Image1
+(2021-05-27 12:06:12,235) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,258) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,272) | Mixing 0.0 phase From Image2 And 0.73 uniform magnitude From Image1
+(2021-05-27 12:06:12,273) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,275) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,285) | Mixing 0.0 phase From Image2 And 0.74 uniform magnitude From Image1
+(2021-05-27 12:06:12,285) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,292) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,304) | Mixing 0.0 phase From Image2 And 0.75 uniform magnitude From Image1
+(2021-05-27 12:06:12,304) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,309) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,319) | Mixing 0.0 phase From Image2 And 0.76 uniform magnitude From Image1
+(2021-05-27 12:06:12,319) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,327) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,336) | Mixing 0.0 phase From Image2 And 0.77 uniform magnitude From Image1
+(2021-05-27 12:06:12,337) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,344) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,356) | Mixing 0.0 phase From Image2 And 0.78 uniform magnitude From Image1
+(2021-05-27 12:06:12,357) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,383) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,396) | Mixing 0.0 phase From Image2 And 0.79 uniform magnitude From Image1
+(2021-05-27 12:06:12,396) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,626) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,643) | Mixing 0.0 phase From Image2 And 0.76 uniform magnitude From Image1
+(2021-05-27 12:06:12,643) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,646) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,658) | Mixing 0.0 phase From Image2 And 0.69 uniform magnitude From Image1
+(2021-05-27 12:06:12,658) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,662) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,672) | Mixing 0.0 phase From Image2 And 0.65 uniform magnitude From Image1
+(2021-05-27 12:06:12,672) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,679) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,689) | Mixing 0.0 phase From Image2 And 0.58 uniform magnitude From Image1
+(2021-05-27 12:06:12,690) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,696) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,706) | Mixing 0.0 phase From Image2 And 0.53 uniform magnitude From Image1
+(2021-05-27 12:06:12,706) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,713) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,724) | Mixing 0.0 phase From Image2 And 0.49 uniform magnitude From Image1
+(2021-05-27 12:06:12,724) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,732) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,742) | Mixing 0.0 phase From Image2 And 0.47 uniform magnitude From Image1
+(2021-05-27 12:06:12,742) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,749) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,759) | Mixing 0.0 phase From Image2 And 0.46 uniform magnitude From Image1
+(2021-05-27 12:06:12,759) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,767) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,776) | Mixing 0.0 phase From Image2 And 0.42 uniform magnitude From Image1
+(2021-05-27 12:06:12,776) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,783) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,793) | Mixing 0.0 phase From Image2 And 0.39 uniform magnitude From Image1
+(2021-05-27 12:06:12,794) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,801) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,811) | Mixing 0.0 phase From Image2 And 0.38 uniform magnitude From Image1
+(2021-05-27 12:06:12,811) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,818) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,827) | Mixing 0.0 phase From Image2 And 0.36 uniform magnitude From Image1
+(2021-05-27 12:06:12,828) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:12,836) | ComboBoxes has been adjusted
+(2021-05-27 12:06:12,850) | Mixing 0.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:12,850) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,353) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,364) | Mixing 0.01 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,364) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,372) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,383) | Mixing 0.04 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,383) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,390) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,400) | Mixing 0.11 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,400) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,407) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,419) | Mixing 0.2 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,419) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,424) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,435) | Mixing 0.29 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,436) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,441) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,452) | Mixing 0.4 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,452) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,460) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,472) | Mixing 0.44 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,472) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,478) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,488) | Mixing 0.52 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,488) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,495) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,507) | Mixing 0.6 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,507) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,512) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,522) | Mixing 0.67 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,522) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,529) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,539) | Mixing 0.7 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,539) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,547) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,562) | Mixing 0.74 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,562) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,565) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,575) | Mixing 0.77 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,576) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,582) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,592) | Mixing 0.8 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,592) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,599) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,609) | Mixing 0.81 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,609) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,616) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,632) | Mixing 0.83 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,632) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,635) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,645) | Mixing 0.84 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,645) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,650) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,662) | Mixing 0.85 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,662) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,720) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,735) | Mixing 0.86 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,735) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,896) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,906) | Mixing 0.81 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,906) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,914) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,926) | Mixing 0.78 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,926) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,931) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,942) | Mixing 0.73 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,942) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,948) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,959) | Mixing 0.7 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,960) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:14,965) | ComboBoxes has been adjusted
+(2021-05-27 12:06:14,975) | Mixing 0.68 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:14,976) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,000) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,015) | Mixing 0.67 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,015) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,035) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,048) | Mixing 0.63 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,049) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,052) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,062) | Mixing 0.6 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,062) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,069) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,079) | Mixing 0.52 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,079) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,086) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,096) | Mixing 0.43 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,096) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,103) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,113) | Mixing 0.4 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,113) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,120) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,130) | Mixing 0.33 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,131) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,138) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,147) | Mixing 0.27 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,148) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,156) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,166) | Mixing 0.2 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,166) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,172) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,183) | Mixing 0.18 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,184) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,190) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,201) | Mixing 0.14 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,201) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,207) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,218) | Mixing 0.11 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,218) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,224) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,235) | Mixing 0.1 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,235) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,242) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,253) | Mixing 0.09 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,253) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,415) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,430) | Mixing 0.1 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,430) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,433) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,443) | Mixing 0.19 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,443) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,448) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,458) | Mixing 0.41 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,458) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,464) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,476) | Mixing 0.51 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,476) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,482) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,492) | Mixing 0.67 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,492) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,499) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,510) | Mixing 0.82 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,510) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,516) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,526) | Mixing 0.91 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,526) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,534) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,545) | Mixing 0.94 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,545) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,551) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,561) | Mixing 0.98 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,561) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,568) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,578) | Mixing 1.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,578) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,969) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,983) | Mixing 0.85 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,983) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:15,987) | ComboBoxes has been adjusted
+(2021-05-27 12:06:15,996) | Mixing 0.73 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:15,996) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,002) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,012) | Mixing 0.55 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,012) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,020) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,034) | Mixing 0.32 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,035) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,037) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,046) | Mixing 0.23 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,046) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,053) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,063) | Mixing 0.1 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,063) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,070) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,080) | Mixing 0.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,080) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,412) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,425) | Mixing 0.11 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,426) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,430) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,442) | Mixing 0.2 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,442) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,447) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,457) | Mixing 0.38 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,457) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,464) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,475) | Mixing 0.57 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,475) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,481) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,492) | Mixing 0.71 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,492) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,499) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,510) | Mixing 0.75 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,510) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,516) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,527) | Mixing 0.81 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,527) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,533) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,542) | Mixing 0.85 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,543) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,551) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,562) | Mixing 0.87 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,563) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,568) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,578) | Mixing 0.89 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,578) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,584) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,594) | Mixing 0.91 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,594) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,603) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,612) | Mixing 0.92 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,613) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,654) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,669) | Mixing 0.93 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,669) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,776) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,792) | Mixing 0.92 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,792) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,795) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,805) | Mixing 0.83 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,805) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,810) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,821) | Mixing 0.76 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,821) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,828) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,839) | Mixing 0.51 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,840) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,845) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,855) | Mixing 0.09 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,855) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:16,862) | ComboBoxes has been adjusted
+(2021-05-27 12:06:16,872) | Mixing 0.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:16,872) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,106) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,119) | Mixing 0.2 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,119) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,123) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,135) | Mixing 0.57 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,135) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,140) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,150) | Mixing 0.66 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,151) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,156) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,167) | Mixing 0.76 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,167) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,174) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,184) | Mixing 0.82 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,184) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,190) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,202) | Mixing 0.84 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,202) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,207) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,219) | Mixing 0.86 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,219) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,419) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,434) | Mixing 0.85 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,434) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,437) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,447) | Mixing 0.72 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,447) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,453) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,462) | Mixing 0.59 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,462) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,470) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,480) | Mixing 0.18 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,481) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,488) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,498) | Mixing 0.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,499) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,691) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,707) | Mixing 0.32 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,708) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,711) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,721) | Mixing 0.53 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,721) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,724) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,734) | Mixing 0.62 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,734) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,741) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,753) | Mixing 0.81 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,753) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,756) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,766) | Mixing 0.99 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,766) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,773) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,786) | Mixing 1.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,786) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,928) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,943) | Mixing 0.77 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,943) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,947) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,957) | Mixing 0.57 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,957) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,964) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,977) | Mixing 0.06 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,977) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:17,981) | ComboBoxes has been adjusted
+(2021-05-27 12:06:17,991) | Mixing 0.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:17,991) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,122) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,140) | Mixing 0.88 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,140) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,143) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,153) | Mixing 1.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,154) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,311) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,328) | Mixing 0.92 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,328) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,331) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,341) | Mixing 0.75 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,341) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,345) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,354) | Mixing 0.52 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,354) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,361) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,372) | Mixing 0.35 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,372) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,378) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,388) | Mixing 0.32 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,388) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,395) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,407) | Mixing 0.3 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,408) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,414) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,427) | Mixing 0.29 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,427) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,432) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,444) | Mixing 0.3 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,444) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,449) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,460) | Mixing 0.34 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,460) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,466) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,476) | Mixing 0.61 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,476) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,482) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,492) | Mixing 1.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,492) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,654) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,669) | Mixing 0.81 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,669) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,672) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,683) | Mixing 0.67 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,683) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,687) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,697) | Mixing 0.55 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,697) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,703) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,715) | Mixing 0.49 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,715) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,720) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,730) | Mixing 0.48 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,730) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,772) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,787) | Mixing 0.56 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,787) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,791) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,801) | Mixing 0.65 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,801) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,807) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,818) | Mixing 0.88 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,819) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,824) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,837) | Mixing 1.0 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,837) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,929) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,948) | Mixing 0.92 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,948) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,951) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,961) | Mixing 0.65 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,961) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,965) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,976) | Mixing 0.48 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,976) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,980) | ComboBoxes has been adjusted
+(2021-05-27 12:06:18,993) | Mixing 0.45 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:18,993) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:18,998) | ComboBoxes has been adjusted
+(2021-05-27 12:06:19,008) | Mixing 0.42 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:19,008) | Output1 has been mixed and displayed successfully
+(2021-05-27 12:06:19,015) | ComboBoxes has been adjusted
+(2021-05-27 12:06:19,025) | Mixing 0.41 phase From Image2 And 0.35 uniform magnitude From Image1
+(2021-05-27 12:06:19,025) | Output1 has been mixed and displayed successfully
