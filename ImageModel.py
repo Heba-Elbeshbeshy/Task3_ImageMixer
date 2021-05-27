@@ -35,35 +35,21 @@ class ImageModel():
         self.magS = 20 * np.log(np.abs(self.fShift))
         self.phaseS = np.angle(self.fShift)
         self.realS = 20 * np.log(np.real(self.fShift))
-        self.imagS = np.imag(self.fShift)
+        self.imagS = np.imag(self.fShift)  
     
     def mix(self, imageToBeMixed, R1 , R2 , mode):
         mixInverse = None
+        print(type(mixInverse))
+        self.MIXED =[[self.phase, imageToBeMixed.phase, self.magnitude, imageToBeMixed.magnitude ,Modes.magAndPhase] ,[self.imaginary ,imageToBeMixed.imaginary, self.real, imageToBeMixed.real, Modes.realAndImag], [self.phase , imageToBeMixed.phase , self.uniformMagnitude ,imageToBeMixed.uniformMagnitude , Modes.phaseAndUniMag], [self.uniformPhase ,imageToBeMixed.uniformPhase , self.magnitude ,imageToBeMixed.magnitude , Modes.uniPhaseAndMag],[self.uniformPhase,imageToBeMixed.uniformPhase, self.uniformMagnitude , imageToBeMixed.uniformMagnitude , Modes.uniMagAndUniPhase]]
 
-        if mode == Modes.magAndPhase:        
-            phaseMix =   R1*self.phase + (1-R1)*imageToBeMixed.phase
-            magnitudeMix = (1-R2)*self.magnitude + R2*imageToBeMixed.magnitude
-            combined = np.multiply(magnitudeMix, np.exp(1j * phaseMix)) 
-
-        elif mode == Modes.realAndImag:
-            imaginaryMix = R1*self.imaginary + (1-R1)*imageToBeMixed.imaginary
-            realMix = (1-R2)*self.real + R2*imageToBeMixed.real
-            combined = realMix + imaginaryMix * 1j 
-
-        elif mode == Modes.phaseAndUniMag: 
-            phaseMix  =   R1 * self.phase   +  (1-R1) * imageToBeMixed.phase
-            UniMagMix = (1-R2) * self.uniformMagnitude  + R2 * imageToBeMixed.uniformMagnitude
-            combined = np.multiply(UniMagMix, np.exp(1j * phaseMix))
-
-        elif mode == Modes.uniPhaseAndMag:
-            UniphaseMix  =  R1 * self.uniformPhase    +  (1-R1) * imageToBeMixed.uniformPhase
-            MagMix = (1-R2) * self.magnitude  +  R2 * imageToBeMixed.magnitude
-            combined = np.multiply(MagMix, np.exp(1j * UniphaseMix))
-
-        elif mode == Modes.uniMagAndUniPhase:    
-            UniphaseMix  =   R1  * self.uniformPhase  + (1-R1) * imageToBeMixed.uniformPhase
-            UniMagMix    = (1-R2)* self.uniformMagnitude  + R2 * imageToBeMixed.uniformMagnitude
-            combined = np.multiply(UniMagMix, np.exp(1j * UniphaseMix))
-
-        mixInverse = np.real(np.fft.ifft2(combined))
+        for i in range(len(self.MIXED)):
+            if mode == self.MIXED[i][4]:     
+                Slider1Mix =   R1*(self.MIXED[i][0]) + (1-R1)*(self.MIXED[i][1])
+                Slider2Mix = (1-R2)*(self.MIXED[i][2]) + R2*(self.MIXED[i][3])
+                if i == 1:
+                    combinedd = Slider2Mix + Slider1Mix * 1j 
+                    mixInverse = np.real(np.fft.ifft2(combinedd)) 
+                else :
+                    combined = np.multiply(Slider2Mix, np.exp(1j * Slider1Mix))
+                    mixInverse = np.real(np.fft.ifft2(combined))                 
         return abs(mixInverse)

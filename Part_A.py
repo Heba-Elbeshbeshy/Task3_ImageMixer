@@ -120,9 +120,9 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         self.adjustComboBox(comp1, comp2)
         Mixing = [[1, 1 , Modes.magAndPhase] , [1, 2, Modes.phaseAndUniMag] , [2,1,Modes.realAndImag] , [3, 1 ,Modes.uniPhaseAndMag] , [3,2,Modes.uniMagAndUniPhase] ]
         
-        for lst in range(len(Mixing)):
-            if component1 == Mixing[lst][0] and component2 == Mixing[lst][1]:
-                mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1,R2, Mixing[lst][2])
+        for list in range(len(Mixing)):
+            if component1 == Mixing[list][0] and component2 == Mixing[list][1]:
+                mixOutput = self.imagesModels[imgI1].mix(self.imagesModels[imgI2], R1,R2, Mixing[list][2])
        
         if type(mixOutput) != type(...):
             self.displayImage(mixOutput, self.outputImages[outID])
@@ -145,7 +145,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
             self.OutputCombos[1].addItem("magnitude")
             self.OutputCombos[1].addItem("uniform Magnitude")
             self.OutputCombos[1].setCurrentText(comp2)
-
+            
         logger.info(f"ComboBoxes has been adjusted")
 
 def main():
