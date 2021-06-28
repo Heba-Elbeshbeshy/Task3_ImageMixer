@@ -1,7 +1,5 @@
 # Task3_ImageMixer
-# AGMD TEAM 3ALA KAWKAB ELARD 
 
-# El Steps de 5asa l most5dme Linux :"
 
  ```
  1- python3 -m pip install python-dev-tools --user --upgrade
